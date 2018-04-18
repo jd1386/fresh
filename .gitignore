@@ -17,3 +17,52 @@
 /yarn-error.log
 
 .byebug_history
+
+# Ignore bundler config.
+/.bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/log/
+/tmp
+
+# Ignore all .DS_Store files
+*.DS_Store
+
+# Ignore application configuration
+/config/application.ymlcr
+
+# ENV variables
+*.env
+*.env.development
+*.env.test
+*.env.production
+
+# temp database and database files in compressed format
+*.logfile
+*.gz
+*.tar
+*.bz2
+*.sql
+logfile
+orightspro.postgresql/
+production_backup/
+brew --prefix/
+
+# data files
+*.csv
+*.csv#
+data/*.csv
+data/*.csv#
+data/*
+*.xls
+*.xlsx
+
+dump.rdb
+
+# temp upload files
+public/uploads/
